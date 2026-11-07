@@ -8,6 +8,15 @@ The service shows how a chosen floor covering will look in the client's own home
 
 ![Before and after](docs/before_after_1.jpg)
 
+## How it differs from "just upload a photo to an AI"
+
+A general-purpose model will draw "some wooden floor". A buyer of a specific product needs more: how this exact product looks, in this pattern and this grade.
+
+- **Laying direction.** The client picks 0°, 45°, 90° or a custom angle and sees how the pattern runs relative to walls and windows. Code builds the pattern from board sizes, so herringbone stays herringbone and board size stays real.
+- **Grade: natur, select, rustic.** The same engineered or parquet board comes pricier and knot-free or cheaper with knots. Manufacturers often have photos of one grade only, usually natur, and clients can't tell rustic from select. The service shows any grade on their own floor, making the price-vs-look choice clear.
+- **Complex patterns.** English and French herringbone, modular parquet, three-strip boards — the hardest to imagine from catalogue photos.
+- **One-click home staging.** See your floor in a finished interior: choose a style and wall colour with buttons, no prompts. For the client it is free home staging of their apartment in seconds.
+
 ## Problem
 
 - Before buying, clients can't picture how the floor will look in their own room; catalogue photos show someone else's interior and lighting.
