@@ -19,11 +19,13 @@ The service shows how a chosen floor covering will look in the client's own home
 ![Stages](docs/pipeline.jpg)
 
 **1. Precise layout (main path, about ₽1.5 per image)**
+
 1. A local segmentation model, **UperNet ConvNeXt Tiny** (ADE20K classes, ONNX, CPU), finds the floor. Rugs and carpet are handled separately.
 2. Code estimates perspective and the wall line from the mask and lays out boards using the product card: width, length, stagger, bevel, pattern, rotation. This is pure geometry, so the pattern and board size are always correct.
 3. The image model **Seedream 5 Flash** takes this draft and the product photo and makes the surface realistic — wood texture, knots, light, shadows, reflections — without moving the boards.
 
 **2. Direct rendering (fallback, about ₽2.5)**
+
 When the mask is inaccurate (pieces of the old floor remain, or the floor spills onto furniture), a stronger model, **GPT Image**, draws the floor itself from the room photo, product photo and our board scheme. Modular parquet and three-strip boards also go this way: Seedream can't hold a fine module grid.
 
 ## Complex patterns and laying direction
