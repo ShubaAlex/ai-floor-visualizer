@@ -15,7 +15,7 @@ A general-purpose model will draw "some wooden floor". A buyer of a specific pro
 - **Laying direction.** The client picks 0°, 45°, 90° or a custom angle and sees how the pattern runs relative to walls and windows. Code builds the pattern from board sizes, so herringbone stays herringbone and board size stays real.
 - **Grade: natur, select, rustic.** The same engineered or parquet board comes pricier and knot-free or cheaper with knots. Manufacturers often have photos of one grade only, usually natur, and clients can't tell rustic from select. The service shows any grade on their own floor, making the price-vs-look choice clear.
 - **Complex patterns.** English and French herringbone, modular parquet, three-strip boards — the hardest to imagine from catalogue photos.
-- **One-click home staging.** See your floor in a finished interior: choose a style and wall colour with buttons, no prompts. For the client it is free home staging of their apartment in seconds.
+- **One-click home staging.** See your floor in a finished interior: choose a style and wall colour with buttons, no prompts. For the client it is free home staging of their apartment in a couple of clicks.
 
 ## Problem
 
