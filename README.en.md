@@ -65,7 +65,7 @@ Once the floor is chosen, the client can quickly try an interior: pick a style (
 
 The weak point is the floor mask: it decides whether the cheap path works. Instead of switching to the expensive model everywhere, we collect our own data:
 
-- A Paint-like "floor / not floor" labelling editor is built in: brush and lasso, add and erase modes, brush size, zoom, undo, hotkeys, a toggle to compare with the model's own mask, and live stats on floor share and how much was added or erased.
+- A Paint-like "floor / not floor" labelling editor is built in: brush and lasso, add and erase modes, brush size (the cursor shows its outline and mode by colour), zoom, undo, hotkeys, a toggle to compare with the model's own mask, and live stats on floor share and how much was added or erased.
 - Every correction is saved as a "photo + correct mask" pair, next to what the model found on its own.
 ![Labelling editor](docs/labeling.jpg)
 
